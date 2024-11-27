@@ -1,0 +1,9 @@
+{
+    "name": "cymulate-assignment",
+    "version": "1.0.0",
+    "description": "cymulate assignment",
+    "dependencies": {
+        "express": "*",
+        "mongoose": "*"
+    }
+}
