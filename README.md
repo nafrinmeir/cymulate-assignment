@@ -13,10 +13,13 @@ helm list
 helm uninstall cymulate-assignment
 
 helm install cymulate-assignment ./Kubernetes/cymulate-assignment
+
 minikube image load cymulate-assignment:latest  - If Using Local Kubernetes (Minikube or Docker Desktop)
+
 helm upgrade cymulate-assignment ./Kubernetes/cymulate-assignment
 
 kubectl get pods
+
 kubectl logs -l app=cymulate-assignment
 
 ##for Debug##
