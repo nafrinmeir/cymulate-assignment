@@ -1,0 +1,17 @@
+{
+  "name": "cymulate-assignment",
+  "version": "1.0.0",
+  "description": "cymulate assignment",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "*"
+  },
+  "main": "docker-test.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

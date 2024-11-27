@@ -1,0 +1,17 @@
+replicas: 1
+image:
+  repository: cymulate-assignment
+  tag: latest
+  pullPolicy: Never
+command: ["node"]
+args: ["k8s-test.js"]
+port: 8080
+env:
+  NODE_ENV: production
+resources:
+  requests:
+    memory: 640Mi
+    cpu: 750m
+  limits:
+    memory: 1024Mi
+    cpu: 1500m
