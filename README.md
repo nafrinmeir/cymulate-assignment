@@ -24,7 +24,7 @@ helm uninstall cymulate-assignment
 
 helm install cymulate-assignment ./Kubernetes/cymulate-assignment
 
-minikube image load cymulate-assignment:latest  - If Using Local Kubernetes (Minikube or Docker Desktop)
+minikube image load cymulate-assignment:latest  (I'm Using Local Kubernetes Docker Desktop)
 
 helm upgrade cymulate-assignment ./Kubernetes/cymulate-assignment
 
